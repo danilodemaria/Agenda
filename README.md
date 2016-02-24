@@ -14,10 +14,11 @@ create database agenda with owner agenda
 
 Criar tabela:
 
-create tabla cliente (
+create table cliente (
 	id serial primary key,
 	nome varchar(100),
 	telFixo varchar(14),
 	telCel varchar(14),
 	email varchar(100)
 );
+
